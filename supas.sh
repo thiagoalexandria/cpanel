@@ -131,7 +131,7 @@ function mq() { exim -bp | grep "<*>" | awk {'print $4'} | sort | uniq -c | sort
 function sendmail() {
 origem=${1}
 destino=${2}
-echo TesteHD |exim -r $origem  -v -odf $destino;
+echo Teste |exim -r $origem  -v -odf $destino;
 }
 
 function delusermail() {
