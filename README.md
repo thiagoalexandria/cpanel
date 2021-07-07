@@ -1,6 +1,12 @@
 # Script de suporte
 
-https://thiagoalexandria.com.br/assets/img/menu.png
+![](./Imagens/menu.png)
+
+Carregando o script no seu shell:
+
+```
+eval "$(curl -s https://raw.githubusercontent.com/thiagoalexandria/cpanel/master/supas.sh)"
+```
 
 # Comandos
 |Comando| Função|
